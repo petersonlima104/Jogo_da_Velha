@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da Velha</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Jogo da Velha</title>
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+</head>
+
+<body>
+  <div class="container text-center">
+    <h1>Jogo da Velha</h1>
+    <div class="row justify-content-center mt-5">
+      <div class="col-4">
+        <div class="row">
+          <div class="col-4 square" onclick="makeMove(0, 0)"></div>
+          <div class="col-4 square" onclick="makeMove(0, 1)"></div>
+          <div class="col-4 square" onclick="makeMove(0, 2)"></div>
+        </div>
+        <div class="row">
+          <div class="col-4 square" onclick="makeMove(1, 0)"></div>
+          <div class="col-4 square" onclick="makeMove(1, 1)"></div>
+          <div class="col-4 square" onclick="makeMove(1, 2)"></div>
+        </div>
+        <div class="row">
+          <div class="col-4 square" onclick="makeMove(2, 0)"></div>
+          <div class="col-4 square" onclick="makeMove(2, 1)"></div>
+          <div class="col-4 square" onclick="makeMove(2, 2)"></div>
+        </div>
+      </div>
+    </div>
+    <div class="message"></div>
+    <button class="btn btn-primary mt-3" onclick="resetGame()">Reiniciar</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
