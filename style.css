@@ -3,6 +3,10 @@ html {
   width: 100%;
 }
 
+body {
+  background: linear-gradient(to right, #05fce7, #03a597, #004741);
+}
+
 .square {
   height: 150px;
   width: 150px;
@@ -28,12 +32,13 @@ html {
   margin-top: 20px;
 }
 
-.btn-primary:hover {
-  background-color: #0069d9;
+.btn-primary {
+  background-color: #0564ca;
 }
 
-.btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+.btn-primary:hover {
+  background-color: #033163;
+  box-shadow: 0 0 0 0.2rem rgba(1, 18, 36, 0.5);
 }
 
 .playerX {
